@@ -1,0 +1,17 @@
+{
+    "name": "auxi-dv/eca-api",
+    "autoload": {
+        "psr-4": {
+            "AuxiDv\\EcaApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephan Schweitzer"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.15",
+        "slim/psr7": "^1.8"
+    }
+}

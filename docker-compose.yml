@@ -1,0 +1,6 @@
+services:
+  php:
+    image: composer:2.7
+    volumes:
+      - .:/app
+    working_dir: /app
